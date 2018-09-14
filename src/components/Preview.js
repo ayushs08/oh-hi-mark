@@ -3,7 +3,8 @@ import React from 'react';
 const Preview = () => {
   return (
     <div className="preview">
-      preview
+      <div className="header">preview</div>
+      <div className="area">sdnfasdasd</div>
     </div>
   )
 }
