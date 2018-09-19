@@ -1,10 +1,12 @@
 import React from 'react';
 
-const Preview = () => {
+const Preview = ({markdown}) => {
   return (
     <div className="preview">
       <div className="header">preview</div>
-      <div className="area">sdnfasdasd</div>
+      <div className="area">
+        {markdown}
+      </div>
     </div>
   )
 }

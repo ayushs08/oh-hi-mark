@@ -70,8 +70,8 @@ body {
     background: #f9f9f9;
   }
   .area {
-    padding: 1rem;
     height: 92%;
+    padding-top: 1rem;
     overflow: auto;
   }
 }
@@ -81,6 +81,23 @@ body {
 }
 .preview {
   @extend %common;
+  .area {
+    padding: 1rem;
+  }
+}
+#editor__area {
+  width: 100%;
+  height: 99%;
+  border: none;
+  resize: none;
+  padding: 1rem;
+  padding-top: 0;
+  font-size: 1.7rem !important;
+  font-family: "Lato";
+  &:focus {
+    border: none;
+    outline: none;
+  }
 }
 @media (max-width: 768px) {
   .wrapper {
