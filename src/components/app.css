@@ -92,6 +92,12 @@ body {
   border: none;
   outline: none; }
 
+pre {
+  background: #ebebeb;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 1rem 2rem; }
+
 @media (max-width: 768px) {
   .wrapper {
     flex-direction: column; }
